@@ -4,3 +4,6 @@ output "yandex_mdb_kafka_cluster" {
 output "yandex_mdb_kafka_topic" {
   value = yandex_mdb_kafka_topic.this
 }
+output "yandex_vpc_security_group" {
+  value = yandex_vpc_security_group.this
+}
